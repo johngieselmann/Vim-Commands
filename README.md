@@ -11,6 +11,9 @@ Find `===` without spaces before and after and add some spaces
 Find `==` without spaces before and after and add some spaces  
 `:%s/\(\S\)==\(\S\)/\1 == \2/gc`
 
+Find `==` without spaces before and after and add some spaces  
+`:%s/\(\S\)=>\(\S\)/\1 => \2/gc`
+
 Find `=` without spaces before and after and add some spaces  
 `:%s/\(\S\)=\(\S\)/\1 = \2/gc`
 

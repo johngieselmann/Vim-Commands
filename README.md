@@ -14,7 +14,7 @@ Find `==` without spaces before and after and add some spaces
 Find `=` without spaces before and after and add some spaces  
 `:%s/\(\S\)=\(\S\)/\1 = \2/gc`
 
-Find `if(` without space before the parenthesis and add a space
+Find `if(` without space before the parenthesis and add a space  
 `%s/if(/if (/gI`
 
 Donezo.  
